@@ -1,0 +1,354 @@
+/*3rd block*******************************************************************/
+.mainTeam, .layoutTypes, .testimonials, .social {
+	background: #000;
+	text-align: center;
+	padding: 100px 0;
+	color: #fff;
+}
+
+.mainTeam h1, .services h1, .layoutTypes h1, .testimonials h1, .contactForm h1 {
+	font-size: 44px;
+	padding-bottom: 30px;
+}
+
+.line {
+	width: 150px;
+	height: 3px;
+	background: #fcac45;
+	margin: 0 auto;
+}
+
+.card .photo {
+	background: #d7d7d7;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	margin: 25px auto;
+}
+
+.teamCards, .serviceCards, .typeCards {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.card {
+	margin: 10px; 
+	width: calc(25% - 20px);
+	margin-bottom: 30px; 
+}
+
+.card .position, .card .typeName {
+	padding-bottom: 15px;
+}
+
+.card .description, .card p {
+	font-size: 15px;
+}
+
+/*4 block*//**************************************************/
+
+.services, .worksGallery, .contactForm {
+	background: #fff;
+	color: #000;
+	padding: 100px 0;
+	text-align: center;
+}
+ 
+.services .desc {
+	padding: 40px 150px;
+	color: #6c6c6c;
+}
+
+.card .image {
+	border: 5px solid #fcac45;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%; 
+	margin: 25px auto;
+}
+/*5th block*********************************************************/
+ 
+.card .typeName {
+	margin-top: 50px;
+}
+
+/*6th***************************************************************/
+.worksGallery h1 {
+	font-size: 44px;
+	padding-bottom: 30px;
+	color: #4C4C4C;
+	font-weight: 400;
+}
+
+.worksGallery span {
+	color: #1C1A1C;
+	font-weight: 800;
+}
+
+.worksGallery p {
+	margin: 30px 180px 100px 180px;
+	color: #6c6c6c;
+}
+
+.gallery img {
+	width: 17%;
+	height: 17%;
+	margin: 10px;
+}
+
+.gallery img:hover {
+	opacity: 0.9;
+}
+
+/*7th block*********************************************************/
+
+.testimonials .mainText {
+	text-transform: uppercase;
+	margin: 75px 180px 0px 180px;
+}
+
+.testimonials .ceoName {
+	margin: 50px auto 0 auto;
+}
+
+
+/*8th*************************************************************/
+
+.contactForm .mainText {
+	margin: 50px auto 0 auto;
+	width: 752px;
+}
+
+.contactWrapper {
+	width: 752px;
+	margin: 0 auto;
+	color: #636363;
+	text-align: left;
+}
+
+.red {
+	color: red;
+}
+
+.formInputs {
+	margin-top: 100px;
+	display: flex;
+}
+
+.inputWrapper {
+	display: block;
+}
+
+input {
+	width: 363px;
+	height: 40px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+input:first-of-type {
+	margin-right: 24px;
+}
+
+textarea {
+	width: 100%;
+	height: 162px;
+}
+
+input, textarea {
+	border: 1px solid #999;
+	margin-top: 5px;
+}
+
+.buttonBlock {
+	display: flex;
+	justify-content: flex-end;
+}
+
+input[type=submit] {
+	width: 165px;
+	height: 40px;
+	background: #fcac45;
+	color: #fff;
+	margin-right: 0;
+	margin-top: 30px;
+}
+
+input[type=submit]:hover {
+	opacity: 0.9;
+}
+
+/**footer********************************************/
+
+.socialLinks {
+	display: flex;
+	justify-content: center;
+}
+
+.socialLinks i {
+	font-size: 30px;
+	margin: 20px;
+	color: #fcac45;
+}
+
+.socialLinks i:hover {
+	opacity: 0.8;
+}
+/****************media******************/
+
+@media screen and (max-width: 1090px) {
+	.mainTeam, .services, .layoutTypes, .testimonials, .worksGallery {
+		padding: 75px 0;
+	}
+
+	.mainTeam h1, .services h1, .layoutTypes h1, .testimonials h1, .worksGallery h1 {
+		font-size: 28px;
+	}
+
+	.teamCards, .serviceCards, .typeCards {
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	.card {
+		width: calc(50% - 30px);
+		margin: 5px;
+	}
+
+	.card .photo, .card .image {
+		width: 100px;
+		height: 100px;
+	}
+
+	.card .name, .card .serviceName {
+		font-size: 20px;
+	}
+
+	.card .position {
+		font-size: 14px;
+	}
+
+	.card .description, .card p {
+		font-size: 14px;
+	}
+
+	.services .desc {
+		padding: 20px 20px;
+	}
+
+	.card .typeName {
+		font-size: 20px;
+		margin-top: 40px;
+	}
+/*********************************************************************/
+	.testimonials .mainText {
+		font-size: 14px;
+		margin: 50px 80px 0px 80px;
+	}
+
+	.testimonials .ceoName {
+		font-size: 14px;
+		margin: 25px auto;
+	}
+/*********************************************************************/
+	.worksGallery p {
+		margin: 30px 80px;
+	}
+
+	.gallery img {
+		width: 20%;
+		height: 20%;
+		margin: 10px 10px;
+	}
+}
+/*********************************************************************/
+@media screen and (max-width: 480px) {
+	.mainTeam, .services, .layoutTypes, .testimonials, .worksGallery {
+		padding: 50px 0;
+	}
+
+	.mainTeam h1, .services h1, .layoutTypes h1, .testimonials h1, .worksGallery h1 {
+		font-size: 24px;
+	}
+
+	.teamCards, .serviceCards, .typeCards {
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.card {
+		max-width: 100%;
+		margin: 10px auto;
+	}
+
+	.card .photo, .card .image {
+		width: 80px;
+		height: 80px;
+	}
+
+	.card .name {
+		font-size: 18px;
+	}
+
+	.card .position {
+		font-size: 12px;
+	}
+
+	.card .description, .card p {
+		font-size: 12px;
+	}
+
+	.services .desc {
+		padding: 20px 0;
+	}
+
+	.card .serviceName {
+		font-size: 16px;
+	}
+
+	.card .typeName {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+/************************************************************************/
+	.testimonials .mainText {
+		font-size: 12px;
+		margin: 20px auto 0px auto;
+	}
+
+	.testimonials .ceoName {
+		font-size: 12px;
+		margin: 15px auto;
+	}
+
+/************************************************************************/
+	.worksGallery p {
+		margin: 10px;
+	}
+
+	.gallery img {
+		width: 40%;
+		height: 40%;
+		margin: 5px auto;
+	}
+
+	.gallery .line1 img:not(:first-child) {
+		display: none;
+	}
+
+	.gallery .line2 img:not(:first-child) {
+		display: none;
+	}
+
+	.gallery .line3 img:not(:first-child) {
+		display: none;
+	}
+}
+
